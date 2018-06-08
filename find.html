@@ -6,25 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <title>Find</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="top-header">
     <div class="header__top">
-      <div class="header__cloumn">
+      <div class="header__column">
         <i class="fas fa-fighter-jet"></i>
         <i class="fas fa-wifi"></i>
       </div>
-      <div class="header__cloumn">
+      <div class="header__column">
         <span class="header__time">18:38</span>
       </div>
-      <div class="header__cloumn">
+      <div class="header__column">
         <i class="far fa-moon"></i>
         <i class="fab fa-bluetooth-b"></i>
         <span class="header__battery">66% <i class="fas fa-battery-full"></i></span>
       </div>
     </div>
     <div class="header__bottom">
-      <div class="header__cloumn">
+      <div class="header__column">
         <span class="header__text">Edit</span>
       </div>
       <div class="header__column">
@@ -35,25 +36,25 @@
     </div>
   </header>
   <main class="find">
-    <section class="find__option">
-      <div class="find_option">
+    <section class="find__options">
+      <div class="find__option">
         <i class="far fa-address-book fa-lg"></i>
         <span class="find__option-title">Find</span>
       </div>
-      <div class="find_option">
+      <div class="find__option">
         <i class="fas fa-qrcode fa-lg"></i>
         <span class="find__option-title">QR Code</span>
       </div>
-      <div class="find_option">
+      <div class="find__option">
         <i class="fas fa-mobile-alt fa-lg"></i>
         <span class="find__option-title">Shake</span>
       </div>
-      <div class="find_option">
+      <div class="find__option">
         <i class="far fa-envelope fa-lg"></i>
-        <span class="find__option-title">Invite viaSMS</span>
+        <span class="find__option-title">Invite via SMS</span>
       </div>
     </section>
-    <section class="find_recommended">
+    <section class="find__recommended">
       <header>
         <h6 class="recommended__title">Recommended Friends</h6>
       </header>
@@ -71,7 +72,7 @@
       <i class="fa fa-comment"></i>
       <span class="tab-bar__title">Chats</span>
     </a>
-    <a href="find.html" class="tab-bar__tab tab-bar__tab selected">
+    <a href="find.html" class="tab-bar__tab tab-bar__tab--selected">
       <i class="fa fa-search"></i>
       <span class="tab-bar__title">Find</span>
     </a>
@@ -80,5 +81,8 @@
       <span class="tab-bar__title">More</span>
     </a>
   </nav>
+  <div class="bigScreenText">
+    <span>Please make your screen smaller!</span>
+  </div>
 </body>
 </html>
